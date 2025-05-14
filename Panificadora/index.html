@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controlhe de Estoque</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Controlhe de Esoque - Panificadora Pão Quente</h1>
+
+   
+    <form id="form-produto">
+        <input type="text" id="nome" placeholder="Nome do Produtos" required>
+        <input type="number" id="quantidade" placeholder="Quantidade" required>
+        <input type="text" id="unidade" placeholder="Unidade (ex:kg,un)" required>
+        <input type="text" id="categoria" placeholder="Categoria (ex:pão,doce)" required>
+        <button type="submit">Adicionar Produto</button>
+    </form>
+    <input type="text" id="buscar" placeholder="Buscar produto...">
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Quantidade</th>
+                <th>Unidade</th>
+                <th>Categoria</th>
+                <th>Ação</th>
+            </tr>
+        </thead>
+        <body id="tabela-produto">
+            
+            
+        </body>
+    </table>
+
+</body>
+</html>
