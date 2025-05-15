@@ -33,7 +33,8 @@ form button:hover{
 #busca {
     display: block;
     margin: 0 auto 20px auto;
-    padding: 60%;
+    padding: 10px;
+    width:60%;
     font-size: lem;
 }
 table{
@@ -47,4 +48,15 @@ th,td {
     padding: 10px;
     border: 1px solid #ddd;
     text-align: center;
+}
+button.acao {
+    padding: 5px 10px;
+    margin: 2px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+}
+button.adicionar {
+    background-color: #f44336;
 }
